@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import mjml from 'mjml-browser';
+// @ts-ignore
 import { getPageIdx, IPage, JsonToMjml } from 'easy-email-core';
 import { cloneDeep, isEqual } from 'lodash';
 import { useEditorContext } from '@/hooks/useEditorContext';

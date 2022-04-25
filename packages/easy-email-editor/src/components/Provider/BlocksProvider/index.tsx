@@ -1,5 +1,6 @@
 import { EventManager } from '@';
 import { EventType } from '@/utils/EventManager';
+// @ts-ignore
 import { getPageIdx } from 'easy-email-core';
 import { isFunction } from 'lodash';
 import React, { useState } from 'react';

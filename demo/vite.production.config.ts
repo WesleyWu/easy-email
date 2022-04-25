@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import styleImport from 'vite-plugin-style-import';
+// @ts-ignore
 import path from 'path';
 import { injectHtml } from 'vite-plugin-html';
 
